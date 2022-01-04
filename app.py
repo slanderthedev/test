@@ -1,7 +1,6 @@
 from logging import debug
 from flask import Flask
 import os, re, json, random, platform, socket, uuid, requests
-import main.py
 
 app =  Flask(__name__)
 
